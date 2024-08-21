@@ -21,6 +21,9 @@ jobs:
       - name: Build
         run: go build
 
+      - name: Ls
+        run: ls -l
+
       # 设置Buildx
       -
         # Add support for more platforms with QEMU (optional)
